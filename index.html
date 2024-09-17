@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Your Name</title>
+
+    <!-- Website SEO For Search Results To Help Ranking. -->
+    <meta name="description" content="Asiful Islam, a professional Minecraft server developer and Discord server setup expert. Hire me to build and manage your gaming servers." />
+
+    <!-- SEO For Keywords -->
+    <meta name="keywords" content="Minecraft server developer, Discord server setup, custom Minecraft server, Asiful Islam developer">
+
+<!-- favicon -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Your Name</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#About">About</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content-wrapper" id="About">
+            <div class="container">
+                <img src="img/logo.jpg" alt="Site Logo">
+                <h1>Welcome to the Site</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa deserunt, voluptatibus reprehenderit
+                    quam nihil facere at laudantium consequuntur labore perferendis, fuga iure qui earum iusto
+                    perspiciatis. Consequatur autem quasi expedita!</p>
+                    <button class="button" id="hireMeBtn">Hire Me</button>
+            </div>
+
+            <!-- Popup Notification Message -->
+<div id="popupNotification" class="popup">
+    🔔 If you hire me for your project, please fill out the contact form. 📩
+    <div class="progress-bar"></div>
+</div>
+            <!-- Right-side section (Discord Widget) -->
+            <aside class="right-section">
+                <h2>Discord Server</h2>
+                <iframe src="https://discord.com/widget?id=1283419364049289357&theme=dark" width="350" height="500"
+                    allowtransparency="true" frameborder="0"
+                    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+            </aside>
+        </div>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="skill">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Expert in HTML, CSS, JavaScript, and modern frameworks.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>Design</h3>
+                        <p>Skilled in graphic design, UI/UX, and Adobe Creative Suite.</p>
+                    </div>
+                    <div class="skill">
+                        <i class="fas fa-database"></i>
+                        <h3>Database Management</h3>
+                        <p>Experienced with SQL, NoSQL, and database design.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-wrapper">
+                    <div class="gallery-item">
+                        <img src="img/night-sky.jpg" alt="Gallery Image 1">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ab?</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/night-sky.jpg" alt="Gallery Image 2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ab?</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="img/night-sky.jpg" alt="Gallery Image 3">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, ab?</p>
+                    </div>
+                    <!-- Add more gallery items as needed -->
+                </div>
+            </div>
+        </section>
+
+        <!-- contact form -->
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="fs-frm" name="complaint-form" accept-charset="utf-8" action="https://formspree.io/f/mblrevdy" method="post">
+                    <fieldset id="fs-frm-inputs">
+                      <label for="full-name">Name:</label>
+                      <input type="text" name="Name" id="full-name" placeholder="First and Last" required="">
+                      <label for="email-address">Email:</label>
+                      <input type="email" name="Email" id="email-address" placeholder="example@email.com" required="">
+                      <label for="telephone">Phone:</label>
+                      <input type="telephone" name="Phone" id="telephone" placeholder="0123456789">
+                        <fieldset id="fs-frm-selects">
+                        <label for="timely">Country:</label>
+                        <select name="Country" id="timely" required="">
+                          <option value="usa">United States</option>
+                                  <option value="canada">Canada</option>
+                                  <option value="uk">United Kingdom</option>
+                                  <option value="bangladesh">Bangladesh</option>
+                                  <option value="india">India</option>
+                                  <option value="australia">Australia</option>
+                                  <option value="germany">Germany</option>
+                                  <option value="france">France</option>
+                                  <option value="japan">Japan</option>
+                                  <option value="china">China</option>
+                        </select>
+                      <label for="complaint">Message:</label>
+                      <textarea rows="6" name="Message" id="complaint" placeholder="Your message here" required=""></textarea>
+                    </fieldset>
+                    <input type="submit" value="Send Message">
+                  </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, laudantium recusandae eaque eum
+                    debitis id voluptatibus quod aliquid vel! Sequi.</p>
+            </div>
+            <div class="footer-right">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-discord"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript for Hamburger Menu -->
+    <script>
+        const hamburger = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('open');
+            hamburger.classList.toggle('toggle');
+        });
+
+
+        // JavaScript to handle the Hire Me button and popup notification
+document.addEventListener("DOMContentLoaded", function() {
+    var hireMeButton = document.getElementById("hireMeBtn");
+    var popup = document.getElementById("popupNotification");
+    var progressBar = document.querySelector(".progress-bar");
+
+    hireMeButton.addEventListener("click", function() {
+        // Show the popup
+        popup.style.display = "block";
+        
+        // Reset the progress bar width
+        progressBar.style.width = "100%";
+        
+        // Animate the progress bar over 10 seconds
+        setTimeout(function() {
+            progressBar.style.width = "0%";
+        }, 10); 
+
+        // Hide the popup after 10 seconds
+        setTimeout(function() {
+            popup.style.display = "none";
+        }, 10000);
+    });
+});
+
+    </script>
+</body>
+
+</html>
